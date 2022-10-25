@@ -27,4 +27,3 @@ public class PercobaanSatu {
         tes.Info(20);
     }
 }
-
