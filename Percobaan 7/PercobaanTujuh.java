@@ -39,7 +39,7 @@ public class PercobaanTujuh {
        
        objectBapak. show_variabel();
        objectAnak.c=5;
-       System. out.println("Object Anak (Superclass dari Bapak):");
+       System.out.println("Object Anak (Superclass dari Bapak):");
        objectAnak.show_variabel(); 
     }
 }
