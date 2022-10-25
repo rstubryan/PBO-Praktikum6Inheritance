@@ -10,15 +10,14 @@
  */
 public class PercobaanDua {
     public class Pegawai {
-        private String nama;
+        String nama;
         public double gaji;
     }
 
-public class Manajer extends PercobaanDua {
+public class Manajer extends Pegawai {
     public String departemen;
-    public String nama; //penambahan public String nama
     public void IsiData(String n, String d) {
-        nama=n; //error dikarenakan tidak ada method nama
+        nama=n; //error dikarenakan tidak ada modifier nama bertipe private yang tidak dapat diakses child classnya
         departemen=d;
     }
 }
