@@ -10,7 +10,7 @@
  */
 class A {
     String var_a = "Variabel A";
-    String var_b = "Variabel EB";
+    String var_b = "Variabel B";
     String var_c = "Variabel C";
     String var_d = "Variabel D";
     
